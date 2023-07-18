@@ -131,6 +131,6 @@ button{
 }
 
 button.active{
-    background-color: var(--Bg-Basic);
-    border: 1px solid var(--Boder-Basic);
+    border: 1px solid #8c00ff;
+    background-color: #8c00ff50;
 }
