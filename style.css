@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    color: var(--Color-Normal);
+    list-style: none;
+}
+
+:root {
+    --Color-main: rgb(15, 15, 15);
+    --Color-Normal: #fff;
+    --Color-Button: #7a7474;
+    --Bg-Button: #1C1C1C;
+    --Boder: #3E3E3E;
+    --Bg-Basic: #a486ff;
+    --Boder-Basic: #7245faa4;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 20px;
+    background-color: var(--Color-main);
+}
+
+
+main {
+    max-width: 500px;
+    border-radius: 7px;
+    border: 1px solid var(--Boder);
+    padding: 10px 20px;
+    background-color: var(--Bg-Button);
+}
+
+header {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.content {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    display: flex;
+    text-align: center;
+}
+.content i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.content i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    text-align: end;
+    border-bottom:  1px solid var(--Color-Button);
+    font-style: italic;
+}
+
+.author span:first-child{
+    margin:  -2px 5px 0 0;
+    font-family: monospace;
+}
+
+.Buttons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Author{
+    margin-bottom: 20px;
+}
+
+li i {
+    color: var(--Color-Normal);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Bg-Button);
+    border: 1px solid var(--Boder);
+    height: 47px;
+    width: 47px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: All ease 0.3s;
+}
+li:hover{
+    background-color: #8c00ff50;
+    border: 1px solid #8c00ff;
+}
+
+button{
+    padding: 10px 25px;
+    border-radius: 7px;
+    background-color: #8c00ff;
+    border: 1px solid #8c00ff;
+    cursor: pointer;
+    font-size: 1rem;
+}
