@@ -13,13 +13,13 @@ copy.addEventListener("click", () => {
 })
 
 twitter.addEventListener("click", () => {
-    let url = `https://twitter.com/intent/tweet?text=${Content.textContent}`
+    let url = `https://twitter.com/intent/tweet?text=${Content.textContent} by ${author.textContent}`
     window.open(url, "_blank")
 })
 
 
 volume.addEventListener("click", () => {
-    let sund = new SpeechSynthesisUtterance(`${Content.textContent} by ${author.textContent}`)
+    let sund = new SpeechSynthesisUtterance(`${Content.textContent}`)
     speechSynthesis.speak(sund)
 })
 
