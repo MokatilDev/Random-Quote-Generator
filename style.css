@@ -51,6 +51,7 @@ header {
     font-size: 1.1rem;
     display: flex;
     text-align: center;
+    font-weight: 300;
 }
 .content i:first-child{
     margin: 3px 10px 0 0;
@@ -62,7 +63,6 @@ header {
     margin: 0 0 3px 10px;
 }
 
-
 .author{
     display: flex;
     justify-content: flex-end;
@@ -70,6 +70,7 @@ header {
     text-align: end;
     border-bottom:  1px solid var(--Color-Button);
     font-style: italic;
+    font-weight: 400;    
 }
 
 .author span:first-child{
