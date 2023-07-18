@@ -74,6 +74,7 @@ header {
 }
 
 .author span:first-child{
+    color: #919191;
     margin:  -2px 5px 0 0;
     font-family: monospace;
 }
@@ -125,4 +126,11 @@ button{
     border: 1px solid #8c00ff;
     cursor: pointer;
     font-size: 1rem;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+
+button.active{
+    background-color: var(--Bg-Basic);
+    border: 1px solid var(--Boder-Basic);
 }
